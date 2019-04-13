@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="">
+
+    <TextView
+        android:id="@+id/tvinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin ứng dụng"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tvphienban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phiên bản: Demo"
+        android:layout_marginLeft="80dp"/>
+    <TextView
+        android:id="@+id/tvbanquyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coppyright @ 2019 Fivestar VietNam"
+        android:layout_marginLeft="80dp"/>
+
+</LinearLayout>

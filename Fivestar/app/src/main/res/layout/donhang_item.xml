@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bo_itemcart"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10">
+            <TextView
+                android:id="@+id/tvdonhang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã đơn hàng"
+                android:textColor="#000000"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/tvmadonhang"
+                android:layout_weight="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="mã đơn hàng"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng tiền:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/tvgiadonhang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_marginLeft="50dp"
+                android:text="0 VND"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvmon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gồm các món:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/tvmondat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="món 1"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvadress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ giao hàng:"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/tvdiachi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dia chi"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

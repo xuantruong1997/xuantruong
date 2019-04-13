@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/boproduct"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvtenmon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gà giòn giòn"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/imvmon"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cha_gio_xien"/>
+        <TextView
+            android:id="@+id/tvgiatien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23000 VND"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF0202"/>
+        <Button
+            android:id="@+id/btnaddcart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bonut"
+            android:text="Thêm vào giỏ hàng"
+            android:textSize="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</LinearLayout>

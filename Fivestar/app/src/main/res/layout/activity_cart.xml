@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bapp"
+    tools:context=".CartActivity"
+    android:weightSum="10">
+
+    <ListView
+        android:id="@+id/lvcart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:weightSum="10">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv"-->
+                <!--android:layout_weight="3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Tổng Tiền: "-->
+                <!--android:gravity="center"/>-->
+            <!--<TextView-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="7"-->
+                <!--android:id="@+id/tvtongtien"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="0 VND"/>-->
+
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btnmuathem"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bonutcart"
+                android:text="Mua thêm"/>
+            <Button
+                android:id="@+id/btnthanhtoan"
+                android:layout_marginLeft="50dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bonutcart"
+                android:text="đặt hàng"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
